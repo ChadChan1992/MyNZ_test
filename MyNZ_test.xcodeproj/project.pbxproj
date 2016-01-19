@@ -15,6 +15,7 @@
 		8059A4B11C4DB9CB0073C0BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8059A4AF1C4DB9CB0073C0BA /* LaunchScreen.storyboard */; };
 		8059A4BC1C4DB9CB0073C0BA /* MyNZ_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8059A4BB1C4DB9CB0073C0BA /* MyNZ_testTests.m */; };
 		8059A4C71C4DB9CB0073C0BA /* MyNZ_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8059A4C61C4DB9CB0073C0BA /* MyNZ_testUITests.m */; };
+		8059A4D61C4DBAFF0073C0BA /* CCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8059A4D51C4DBAFF0073C0BA /* CCModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8059A4C21C4DB9CB0073C0BA /* MyNZ_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNZ_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8059A4C61C4DB9CB0073C0BA /* MyNZ_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNZ_testUITests.m; sourceTree = "<group>"; };
 		8059A4C81C4DB9CB0073C0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8059A4D41C4DBAFF0073C0BA /* CCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCModel.h; sourceTree = "<group>"; };
+		8059A4D51C4DBAFF0073C0BA /* CCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8059A4A51C4DB9CB0073C0BA /* AppDelegate.m */,
 				8059A4A71C4DB9CB0073C0BA /* ViewController.h */,
 				8059A4A81C4DB9CB0073C0BA /* ViewController.m */,
+				8059A4D41C4DBAFF0073C0BA /* CCModel.h */,
+				8059A4D51C4DBAFF0073C0BA /* CCModel.m */,
 				8059A4AA1C4DB9CB0073C0BA /* Main.storyboard */,
 				8059A4AD1C4DB9CB0073C0BA /* Assets.xcassets */,
 				8059A4AF1C4DB9CB0073C0BA /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				8059A4A91C4DB9CB0073C0BA /* ViewController.m in Sources */,
 				8059A4A61C4DB9CB0073C0BA /* AppDelegate.m in Sources */,
 				8059A4A31C4DB9CB0073C0BA /* main.m in Sources */,
+				8059A4D61C4DBAFF0073C0BA /* CCModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				8059A4CD1C4DB9CB0073C0BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8059A4CE1C4DB9CB0073C0BA /* Build configuration list for PBXNativeTarget "MyNZ_testTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				8059A4D01C4DB9CB0073C0BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8059A4D11C4DB9CB0073C0BA /* Build configuration list for PBXNativeTarget "MyNZ_testUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				8059A4D31C4DB9CB0073C0BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
