@@ -20,6 +20,8 @@
     self.view.backgroundColor = [UIColor blueColor];
     
     self.view.alpha = 0.5;
+    
+    // 1.0版本维护
 }
 
 @end
