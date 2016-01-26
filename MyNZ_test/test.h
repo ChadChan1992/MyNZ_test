@@ -6,8 +6,9 @@
 //  Copyright © 2016年 Chad. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface test : NSObject
+@property (nonatomic,copy) NSString *name;
 
 @end
