@@ -27,6 +27,8 @@
     self.view.backgroundColor = [UIColor blueColor];
     
     self.view.alpha = 0.5;
+    
+    // 修改 功能添加
 }
 
 @end
