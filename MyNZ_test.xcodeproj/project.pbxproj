@@ -16,6 +16,7 @@
 		8059A4BC1C4DB9CB0073C0BA /* MyNZ_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8059A4BB1C4DB9CB0073C0BA /* MyNZ_testTests.m */; };
 		8059A4C71C4DB9CB0073C0BA /* MyNZ_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8059A4C61C4DB9CB0073C0BA /* MyNZ_testUITests.m */; };
 		8059A4D61C4DBAFF0073C0BA /* CCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8059A4D51C4DBAFF0073C0BA /* CCModel.m */; settings = {ASSET_TAGS = (); }; };
+		8059A70D1C5787330073C0BA /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 8059A70C1C5787330073C0BA /* test.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		8059A4C81C4DB9CB0073C0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8059A4D41C4DBAFF0073C0BA /* CCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCModel.h; sourceTree = "<group>"; };
 		8059A4D51C4DBAFF0073C0BA /* CCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCModel.m; sourceTree = "<group>"; };
+		8059A70B1C5787330073C0BA /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		8059A70C1C5787330073C0BA /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				8059A4AF1C4DB9CB0073C0BA /* LaunchScreen.storyboard */,
 				8059A4B21C4DB9CB0073C0BA /* Info.plist */,
 				8059A4A11C4DB9CB0073C0BA /* Supporting Files */,
+				8059A70B1C5787330073C0BA /* test.h */,
+				8059A70C1C5787330073C0BA /* test.m */,
 			);
 			path = MyNZ_test;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8059A70D1C5787330073C0BA /* test.m in Sources */,
 				8059A4A91C4DB9CB0073C0BA /* ViewController.m in Sources */,
 				8059A4A61C4DB9CB0073C0BA /* AppDelegate.m in Sources */,
 				8059A4A31C4DB9CB0073C0BA /* main.m in Sources */,
