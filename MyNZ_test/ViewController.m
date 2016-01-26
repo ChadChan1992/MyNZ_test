@@ -24,7 +24,11 @@
     // 修改6
     // 修改7
     // 修改8888
+
     self.view.backgroundColor = [UIColor yellowColor];
+
+    self.view.backgroundColor = [UIColor greenColor];
+
     
     self.view.alpha = 0.5;
     
