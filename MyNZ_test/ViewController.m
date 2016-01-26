@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    // 主线修改1
     self.view.backgroundColor = [UIColor blueColor];
     
     self.view.alpha = 0.5;
