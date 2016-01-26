@@ -11,5 +11,6 @@
 @interface test : NSObject
 @property (nonatomic,copy) NSString *name;
 @property (nonatomic,assign) float age;
+@property (nonatomic,copy) NSString *title;
 
 @end
