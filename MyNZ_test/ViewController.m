@@ -23,6 +23,7 @@
     // 修改5
     // 修改6
     // 修改7
+    // 修改8
     self.view.backgroundColor = [UIColor blueColor];
     
     self.view.alpha = 0.5;
