@@ -12,5 +12,6 @@
 @property (nonatomic,copy) NSString *name;
 @property (nonatomic,assign) float age;
 @property (nonatomic,copy) NSString *title;
+@property (nonatomic,copy) NSString *haha;
 
 @end
